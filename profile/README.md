@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="https://via.placeholder.com/150?text=Syntiox+Logo" width="150" height="150" alt="Syntiox Logo"/>
+  <img src="https://sh4lu-z.vercel.app/assets/syntiox.png" width="150" height="150" alt="Syntiox Logo"/>
 
   # Syntiox
   ### 🚀 Innovating at the Edge of AI & Cybersecurity
