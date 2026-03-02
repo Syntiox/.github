@@ -89,7 +89,7 @@ We welcome developers, researchers, and tech enthusiasts! Here is how you can ge
   <a href="mailto:syntiox.official@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact_Us-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  <a href="YOUR_YOUTUBE_LINK_HERE">
+  <a href="https://www.youtube.com/@sh4lu_z">
     <img src="https://img.shields.io/badge/YouTube-Syntiox-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/>
   </a>
   <a href="YOUR_FACEBOOK_PAGE_LINK_HERE">
