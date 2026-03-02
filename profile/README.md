@@ -68,7 +68,10 @@ We focus on projects that push the boundaries of performance and intelligence:
 ---
 
 ### 🤝 How to Contribute
+
 We welcome developers, researchers, and tech enthusiasts! Here is how you can get involved:
+
+[![](https://img.shields.io/badge/Follow-Syntiox-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Syntiox)
 
 1.  **Explore:** Check out our [Repositories](https://github.com/orgs/Syntiox/repositories).
 2.  **Fork:** Click the **Fork** button on any project you find interesting.
