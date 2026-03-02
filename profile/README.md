@@ -11,12 +11,38 @@
     We believe in the power of collaboration to solve complex problems.
   </p>
 
-  <p>
-    <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-    <img src="https://img.shields.io/badge/AI_&_ML-FF6F00?style=for-the-badge&logo=google-gemini&logoColor=white" alt="AI" />
-    <img src="https://img.shields.io/badge/Cybersecurity-FF0000?style=for-the-badge&logo=kali-linux&logoColor=white" alt="Security" />
-  </p>
+  ```javascript
+const Syntiox = {
+    type: "Research & Development Organization",
+    mission: "Engineering high-performance solutions and intelligent systems",
+    
+    focusAreas: [
+        "Artificial Intelligence & LLM Research",
+        "Cybersecurity & Ethical Hacking",
+        "High-Performance System Design",
+        "Open-Source Automation Tools"
+    ],
+    
+    currentProjects: {
+        ai: "Sinhala Language Model Research",
+        security: "Vulnerability Assessment & Networking Tools",
+        automation: "Intelligent Bot Ecosystems"
+    },
+
+    community: {
+        status: "Open for Collaboration",
+        contribution: "Forks, Issues, and PRs are highly welcome 🚀"
+    },
+
+    socials: {
+        youtube: "Syntiox",
+        facebook: "Syntiox Official",
+        email: "syntiox.official@gmail.com"
+    },
+
+    philosophy: "Building the future through open-source innovation."
+};
+```
 
   <br />
 
