@@ -11,7 +11,7 @@
     We believe in the power of collaboration to solve complex problems.
   </p>
 
-  ```javascript
+```javascript
 const Syntiox = {
     type: "Research & Development Organization",
     mission: "Engineering high-performance solutions and intelligent systems",
