@@ -26,6 +26,7 @@ This repository contains the source code for the official **Syntiox** organizati
     advanced AI models, and secure networking solutions. 
     We believe in the power of collaboration to solve complex problems.
   </p>
+</div>
 
 ```javascript
 const Syntiox = {
@@ -59,7 +60,7 @@ const Syntiox = {
     philosophy: "Building the future through open-source innovation."
 };
 ```
-
+<div align="center">
   <br />
 
   <a href="https://github.com/orgs/Syntiox/repositories">
