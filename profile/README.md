@@ -1,6 +1,22 @@
 <div align="center">
 
-  <img src="https://sh4lu-z.vercel.app/assets/syntiox.png" width="300" height="300" alt="Syntiox Logo"/>
+  <a href="https://syntiox.github.io/">
+    <img src="https://sh4lu-z.vercel.app/assets/syntiox.png" width="300" height="300" alt="Syntiox Logo"/>
+  </a>
+
+  ## 🌐 Syntiox Official Website
+
+This repository contains the source code for the official **Syntiox** organization website.
+
+<br />
+
+  <a href="https://syntiox.github.io/">
+    <img src="https://img.shields.io/badge/Visit_Site-000000?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Site" />
+  </a>
+
+<br />
+
+---
 
   # Syntiox
   ### 🚀 Innovating at the Edge of AI & Cybersecurity
@@ -82,6 +98,7 @@ We welcome developers, researchers, and tech enthusiasts! Here is how you can ge
 
 ---
 
+
 <div align="center">
 
   ### 🌐 Connect with Syntiox
@@ -99,3 +116,5 @@ We welcome developers, researchers, and tech enthusiasts! Here is how you can ge
   <p>© 2026 Syntiox Organization. All Rights Reserved.</p>
 
 </div>
+
+
