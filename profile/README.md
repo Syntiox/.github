@@ -112,7 +112,7 @@ We welcome developers, researchers, and tech enthusiasts! Here is how you can ge
   <img src="https://img.shields.io/badge/WhatsApp-Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
  </a>
 
-  <sub><sub>© 2026 Syntiox Organization. All Rights Reserved.</sub></sub>
+  <sub>© 2026 Syntiox Organization. All Rights Reserved.</sub>
 
 </div>
 
