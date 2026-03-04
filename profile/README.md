@@ -108,8 +108,11 @@ We welcome developers, researchers, and tech enthusiasts! Here is how you can ge
   <a href="YOUR_FACEBOOK_PAGE_LINK_HERE">
     <img src="https://img.shields.io/badge/Facebook-Follow_Us-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/>
   </a>
+  <a href="https://whatsapp.com/channel/0029VbCqPsRC1FuEMz7ICY1o">
+  <img src="https://img.shields.io/badge/WhatsApp-Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
+ </a>
 
-  <p>© 2026 Syntiox Organization. All Rights Reserved.</p>
+  <p style="font-size: 11px; color: #888888;">© 2026 Syntiox Organization. All Rights Reserved.</p>
 
 </div>
 
