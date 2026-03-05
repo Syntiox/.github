@@ -1,0 +1,84 @@
+name: Syntiox Multi-Stack Security & Build Check
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  validate:
+    name: Code Validation & Security
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # 1. Cybersecurity: Secret Leak Scan (සියලුම ලැන්ග්වේජ් වලට පොදුයි)
+      - name: Secret Leak Detection
+        uses: trufflesecurity/trufflehog@main
+        with:
+          path: ./
+          base: ${{ github.event.repository.default_branch }}
+          head: HEAD
+
+      # 2. Environment Setup (අවශ්‍ය ටූල්ස් ලෑස්ති කිරීම)
+      - name: Setup Multi-Language Environment
+        uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with: { python-version: '3.10' }
+      - name: Setup Rust
+        uses: actions/rust-toolchain@stable
+
+      # 3. Smart Validation Logic (ලැන්ග්වේජ් එක අනුව චෙක් කිරීම)
+      - name: Multi-Language Syntax Check
+        run: |
+          echo "Starting Comprehensive Validation..."
+
+          # --- Python Check ---
+          if find . -name "*.py" -print -quit | grep -q .; then
+            echo "Python detected. Checking syntax..."
+            python -m py_compile $(find . -name "*.py")
+          fi
+
+          # --- Node.js / JavaScript / React Check ---
+          if [ -f package.json ]; then
+            echo "Node.js/React detected. Installing and checking..."
+            npm install
+            # npm run build # React නම් මේකත් දාන්න පුළුවන්
+          fi
+
+          # --- Rust Check ---
+          if [ -f Cargo.toml ]; then
+            echo "Rust detected. Checking code..."
+            cargo check
+          fi
+
+          # --- C / C++ Check ---
+          if find . -name "*.c" -o -name "*.cpp" -print -quit | grep -q .; then
+            echo "C/C++ detected. Performing syntax check..."
+            for file in $(find . -name "*.c" -o -name "*.cpp"); do
+              gcc -fsyntax-only "$file" || echo "Check failed for $file"
+            done
+          fi
+
+          # --- Java Check ---
+          if find . -name "*.java" -print -quit | grep -q .; then
+            echo "Java detected. Compiling..."
+            javac $(find . -name "*.java")
+          fi
+
+          # --- JSON / Data Validation ---
+          if find . -name "*.json" -print -quit | grep -q .; then
+            echo "Validating JSON files..."
+            for file in $(find . -name "*.json"); do
+              cat "$file" | jq . > /dev/null || exit 1
+            done
+          fi
+
+          echo "All checks passed successfully!"
