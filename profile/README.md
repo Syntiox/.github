@@ -61,7 +61,7 @@ const Syntiox = {
   <a href="https://github.com/orgs/Syntiox/repositories">
     <img src="https://img.shields.io/badge/Fork_Our_Projects-30363D?style=for-the-badge&logo=git&logoColor=white" alt="Fork Projects"/>
   </a>
-  <a href="https://github.com/orgs/Syntiox/people">
+  <a href="https://github.com/orgs/Syntiox/discussions/2#discussion-9593179">
     <img src="https://img.shields.io/badge/Join_The_Team-238636?style=for-the-badge&logo=github&logoColor=white" alt="Join Team"/>
   </a>
 
