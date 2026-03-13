@@ -1,7 +1,7 @@
 <div align="center">
 
   <a href="https://syntiox.github.io/">
-    <img src="https://sh4lu-z.vercel.app/images/logo.png" width="600" height="600" alt="Syntiox Logo"/>
+    <img src="https://syntiox.github.io/images/syntiox.png" width="300" height="300" alt="Syntiox Logo"/>
   </a>
 
   ## 🌐 Syntiox Official Website
