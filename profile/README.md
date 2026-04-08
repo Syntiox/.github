@@ -36,7 +36,7 @@ const Syntiox = {
     ],
     
     currentProjects: {
-        ai: "Sinhala Language Model Research",
+        ai: "Language Model Research",
         security: "Vulnerability Assessment & Networking Tools",
         automation: "Intelligent Bot Ecosystems"
     },
