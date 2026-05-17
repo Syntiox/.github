@@ -8,7 +8,7 @@
   <h3>Building the next generation of elegant tech.</h3>
 
   <p>
-    <b>Syntiox</b> is an open-source R&D organization engineering elegant solutions at the intersection of
+    <b>Syntiox</b> is an R&D organization engineering elegant solutions at the intersection of
     <b>Artificial Intelligence</b>, <b>Advanced Security</b>, and <b>Scalable Architecture</b>.
     We believe in collaboration, performance, and the power of open-source innovation.
   </p>
