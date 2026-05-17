@@ -1,15 +1,8 @@
 <div align="center">
 
-  <a href="https://syntiox.github.io/">
+  <a href="https://syntiox.pages.dev/">
     <img src="syntiox.png" width="300" height="300" alt="Syntiox Logo"/>
   </a>
-
-  ## 🌐 Syntiox Official Website
-
-This repository contains the source code for the official **Syntiox** organization website.
-(Click on the logo to go to the website)
-
-
 
 ---
 
@@ -102,9 +95,6 @@ We welcome developers, researchers, and tech enthusiasts! Here is how you can ge
   <a href="mailto:syntiox.official@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact_Us-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  <a href="https://www.youtube.com/@sh4lu_z">
-    <img src="https://img.shields.io/badge/YouTube-Syntiox-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/>
-  </a>
   <a href="YOUR_FACEBOOK_PAGE_LINK_HERE">
     <img src="https://img.shields.io/badge/Facebook-Follow_Us-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"/>
   </a>
@@ -115,5 +105,4 @@ We welcome developers, researchers, and tech enthusiasts! Here is how you can ge
   <sub>© 2026 Syntiox Organization. All Rights Reserved.</sub>
 
 </div>
-
 
